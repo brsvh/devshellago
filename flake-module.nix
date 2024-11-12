@@ -120,7 +120,7 @@ in
               {
                 options = {
                   nixago = mkOption {
-                    default = [ ];
+                    default = { };
 
                     description = ''
                       A list of nixago configurations.
